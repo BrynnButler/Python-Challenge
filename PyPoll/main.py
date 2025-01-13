@@ -2,7 +2,7 @@ import os
 import csv
 
 # File paths relative to the script's directory
-file_to_load = os.path.join("PyPoll", "Resources", "election_data.csv")
+file_to_load = os.path.join("Resources", "election_data.csv")
 file_to_output = os.path.join("PyPoll", "analysis", "election_analysis.txt")
 
 # Debugging: Print the resolved file paths
