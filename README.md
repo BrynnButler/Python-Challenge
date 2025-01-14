@@ -32,6 +32,7 @@ had to create a Python script that analyzes the votes and calculates each of the
 used Python3_reference_cheat_sheet.pdf for guidance 
 
 additionally, used Google Generative AI for help formatting a string calculation to display only two decimal places
+
 what it gave me as an example:
 
 num1 = 10.12345
