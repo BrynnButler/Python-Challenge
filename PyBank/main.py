@@ -29,7 +29,8 @@ with open(file_to_load) as financial_data:
     for row in reader:
         # Extract date and profit/loss
         date = row[0]
-        profit = int(row[1])  # Convert profit/loss value to an integer
+        # convert profit/loss to integer
+        profit = int(row[1])  
 
         # Track the total months and total net
         total_months += 1
